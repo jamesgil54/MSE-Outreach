@@ -77,6 +77,7 @@ git rebase main <BRANCH_NAME>
 Once your branch has been used to commit changes, you can delete it
 
 ```sh
+git checkout origin main
 git branch -D <BRANCH_NAME>
 ```
 It is good practice to make a new branch every time you make changes, and delete it afterwards. 
